@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina HTML</title>
+</head>
+<!--
+    
+    ->  textos
+    h1 ... h6 : tamaños de letras
+    p : parrafos
+    br : salto de linea
+    hr : linea separatoria
+    em o i: letra en cursiva
+    strong : texto negrilla
+    span : id o class el texto
+    blockquote : sirve para citar
+
+    ->  listas
+    ol : lista ordenada o enumerada
+    ul : lista desordenada
+    li : componentes de la lista
+
+    ->  imagenes
+    img : importar imagen
+    .alt : pone un texto si no muestra la imagen
+    .title : hover texto
+    .src : ruta de la imagen
+    .width : ancho de la imagen
+    .height : largo de la imagen
+
+    ->  tablas
+    table : crea el encabezado de la tabla
+    .border : poner borde a la tabla en px
+    tbody : los datos de la tabla
+    tr : crea una fila en la tabla
+    th : pone los encabezados en negrilla
+    td : rellena las columnas de la fila
+    .colspan : expande el tamaño de la columna
+
+    -> formularios
+    form : crear un formualrio
+    label : campo de texto
+    input : entrada de informacion
+    .type : define el tipo de datos text(caja de texto), radio(boton seleccionable),submit(crear boton)
+    .name : nombre del campo
+    .placeholde : cambia el testo dentro del recuadro
+    textarea : campo de tipo descripcion
+    select : lista desplegable
+    option : opciones de la lista desplegable
+    .value : asigna el valor al option
+-->
+<body>
+    <h1>Titulo Pagina</h1>
+    <h2>Bienvenido a mi pagina</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at augue a odio porta elementum quis at nisl. Etiam eget quam suscipit elit placerat posuere. In libero justo, blandit tempor imperdiet non, fermentum non mauris. Etiam ornare vitae velit vitae venenatis. Nam gravida quam non erat convallis, eget mattis dui sollicitudin. Sed vitae urna orci. Nam vel nisl nulla. Fusce eu ante felis. Aliquam quis porttitor dolor.
+    </p>
+    <hr/>
+        <h2>Imangenes en html</h2>
+        <img src="/Desarrollo Web/imagenes/minecraft.png" alt="Imagen de maincra"/ width="200" height="200" title="maincra">
+    <hr/>
+    <h3>formularios</h3>
+    <form>
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe nombre">
+        </p>
+        <p>
+            <label for="descripcion">Descripcion</label>
+            <textarea name="descripcion"></textarea>
+        </p>
+        <p>
+            <input type="radio" name="Hombre"> Hombre <br/>
+            <input type="radio" name="Mujer"> Mujer <br/>
+            <input type="radio" name="NN"> NN <br/>
+        </p>
+        <p>
+            <select name="genero">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                <option value="NN">NN</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <hr/>
+    <h3>subtitulo</h3>
+    <p>
+        Vestibulum a urna a arcu aliquet ultrices. Nullam non ligula massa. Ut posuere malesuada laoreet. Duis rhoncus porttitor egestas. Nunc pellentesque et magna quis accumsan. Nunc sodales laoreet tellus eu hendrerit. Ut sed diam facilisis, tincidunt justo malesuada, dapibus lectus. Quisque eu condimentum nisl.<br/><strong>Ut augue neque, facilisis ac viverra ac, ultrices at lacus.</strong>  Nulla nibh erat, finibus sed ante sit amet, feugiat pulvinar sem. In accumsan rhoncus sem, at iaculis lectus ullamcorper vitae.
+    </p>
+    <blockquote>
+        Donec a semper nisi, ut dignissim metus. Nullam a semper lorem.<em> Suspendisse lectus purus, euismod vitae blandit sed, ornare eu mauris. Praesent aliquam tincidunt arcu aliquam ornare. Sed hendrerit tempor blandit.</em> Suspendisse accumsan turpis est, eget semper magna euismod quis. Praesent pulvinar feugiat lacus. Integer id velit sed metus porttitor interdum ac a nulla. Nunc dapibus vel enim vitae aliquam. Nulla ut consequat eros. Nam in turpis quis erat sodales fermentum et non lectus. Donec mattis dolor a consectetur condimentum. Nullam at ultricies enim, ut pellentesque lorem. Mauris at diam eget tortor dignissim varius.
+    </blockquote>
+
+    <h3>Listas en html</h3>
+    <ol>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <ul>
+            <li>Fusce vitae</li>
+            <li>felis eget</li>
+            <li>mauris feugiat</li>
+        </ul>
+        <li>Ut et erat ac libero vehicula suscipit eu nec neque.</li>
+        <li>Ut hendrerit purus non fringilla imperdiet.</li>
+        <li>Quisque faucibus mauris sit amet efficitur tincidunt.</li>
+    </ol>
+
+    <ul>
+        <li>Phasellus in metus auctor, ultricies nisl et, auctor sapien.</li>
+        <ol>
+            <li>Integer nec</li>
+            <li>dui eleifend</li>
+        </ol>
+        <li>Integer nec dui eleifend, aliquam elit in, elementum leo.</li>
+        <li>Morbi ullamcorper neque id gravida laoreet.</li>
+    </ul>
+    <br/>
+    <h3>Tablas</h3>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>fecha</th>
+            <th>id</th>
+        </tr>
+        <tr>
+            <td>juan</td>
+            <td>22</td>
+            <td>10/30</td>
+            <td>126743</td>
+        </tr>
+        <tr>
+            <td>pablo</td>
+            <td>22</td>
+            <td>04/20</td>
+            <td>423114</td>
+        </tr>
+
+    </table>
+</body>
+</html>
