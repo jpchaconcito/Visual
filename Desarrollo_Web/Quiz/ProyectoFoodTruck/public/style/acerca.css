@@ -1,0 +1,27 @@
+.AcercaDeNosotros {
+    background-color: #bc5800;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .AcercaDeNosotros h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .AcercaDeNosotros p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .AcercaDeNosotros img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  

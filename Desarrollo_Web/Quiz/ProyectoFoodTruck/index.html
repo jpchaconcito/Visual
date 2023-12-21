@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="public/style/pp.css">
+    <link rel="stylesheet" href="public/style/navBar.css">
+    <link rel="stylesheet" href="public/style/inicio.css">
+    <link rel="stylesheet" href="public/style/productos.css">
+    <link rel="stylesheet" href="public/style/acerca.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <title>Food Truck</title>
+        <nav>
+            <h1>Food Truck</h1>
+            <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="inicio">
+        <h2>Las mejores comidas rápidas y bebidas de la ciudad</h2>
+        <p class="Texto">¿Buscas las mejores comidas rápidas y bebidas de la ciudad? ¡No busques más! Nuestro food
+            truck tiene todo
+            lo que necesitas, desde hamburguesas y papas fritas hasta pizza y alitas. También tenemos una amplia
+            selección de bebidas, incluyendo refrescos, agua y cerveza.</p>
+    </div>
+    <section class="Productos">
+        <div class="Comida carrusel"> <!-- Agregado "carrusel" como clase -->
+            <input type="radio" name="comida-radio" id="comida1" checked>
+            <section>
+                <!-- Contenido de la primera diapositiva del carrusel -->
+                <img src="public/img/hambur.jpeg" alt="" width="200px" height="200px">
+                <div>
+                    <h2>Hamburguesa con queso</h2>
+                    <p>5$</p>
+                </div>
+            </section>
+
+            <input type="radio" name="comida-radio" id="comida2">
+            <section>
+                <!-- Contenido de la segunda diapositiva del carrusel -->
+                <img src="public/img/papas.jpeg" alt="" width="200px" height="200px">
+                <div>
+                    <h2>Papas con chili</h2>
+                    <p>4.50$</p>
+                </div>
+            </section>
+
+            <input type="radio" name="comida-radio" id="comida3">
+            <section>
+                <!-- Contenido de la tercera diapositiva del carrusel -->
+                <img src="public/img/perro.jpeg" alt="" width="200px" height="200px">
+                <div>
+                    <h2>HotDog</h2>
+                    <p>3$</p>
+                </div>
+            </section>
+
+            <!-- Flechas para cambiar entre diapositivas -->
+            <label for="comida1" class="arrow prev">&#10094;</label>
+            <label for="comida2" class="arrow next">&#10095;</label>
+        </div>
+
+        <div class="Bebidas carrusel"> <!-- Agregado "carrusel" como clase -->
+            <input type="radio" name="bebidas-radio" id="bebida1" checked>
+            <section>
+                <!-- Contenido de la primera diapositiva del carrusel para bebidas -->
+                <img src="public/img/malteada.jpeg" alt="" width="200px" height="200px">
+                <div>
+                    <h2>Malteada de chocolate</h2>
+                    <p>4$</p>
+                </div>
+            </section>
+
+            <input type="radio" name="bebidas-radio" id="bebida2">
+            <section>
+                <!-- Contenido de la segunda diapositiva del carrusel para bebidas -->
+                <img src="public/img/te.jpeg" alt="" width="200px" height="200px">
+                <div>
+                    <h2>Gaseosa</h2>
+                    <p>2$</p>
+                </div>
+            </section>
+
+            <input type="radio" name="bebidas-radio" id="bebida3">
+            <section>
+                <!-- Contenido de la tercera diapositiva del carrusel para bebidas -->
+                <img src="public/img/limonada.jpeg" alt="" width="200px" height="200px">
+                <div>
+                    <h2>Limonada</h2>
+                    <p>1$</p>
+                </div>
+            </section>
+
+            <!-- Flechas para cambiar entre diapositivas -->
+            <label for="bebida1" class="arrow prev">&#10094;</label>
+            <label for="bebida2" class="arrow next">&#10095;</label>
+        </div>
+    </section>
+
+    <section class="AcercaDeNosotros">
+        <h2>Acerca de Nosotros</h2>
+        <p>
+            Bienvenido a nuestro carrito de comida callejera, donde la deliciosa comida se encuentra con la conveniencia en cada bocado.
+            Nos dedicamos a ofrecer las mejores comidas rápidas de la ciudad, desde crujientes papas fritas hasta suculentas hamburguesas
+            y perritos calientes irresistibles. En cada platillo, buscamos brindarte una experiencia única y sabrosa que satisfaga tus
+            antojos callejeros.
+        </p>
+        <p>
+            Además de nuestras deliciosas opciones de comida, también te ofrecemos una variedad refrescante de bebidas. Desde gaseosas
+            burbujeantes hasta limonadas refrescantes y malteadas cremosas, tenemos algo para todos los gustos.
+        </p>
+        <p>
+            En nuestro carrito, la calidad y la frescura son nuestra prioridad. Utilizamos ingredientes frescos y preparamos cada platillo
+            con pasión para ofrecerte la mejor experiencia gastronómica en la calle.
+        </p>
+        <p>
+            ¡Esperamos que disfrutes de tu visita y que cada bocado te haga volver por más!
+        </p>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

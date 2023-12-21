@@ -1,0 +1,39 @@
+/* Estilos para la sección Productos */
+.Productos {
+    position: relative; /* Necesario para posicionar las flechas correctamente */
+}
+
+/* Estilos del carrusel */
+.Comida,
+.Bebidas {
+    display: flex;
+    overflow: hidden;
+}
+
+.Comida section,
+.Bebidas section {
+    flex: 0 0 100%; /* Ancho fijo del 100% para cada sección */
+}
+
+/* Estilos de las flechas */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorCarrusel{
+    border: 5px, solid, black;
+    height: 300px;
+}
+
+.itemCarrusel-1 {
+    background-color: rgb(122, 178, 227);
+    position: relative;
+    height: 100%;
+}
+
+.contenidoCarrusel {
+    background-color: aqua;
+    height: 100%;
+}
+
+.flechasCarrusel {
+    background-color: rgb(151, 54, 221,0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}

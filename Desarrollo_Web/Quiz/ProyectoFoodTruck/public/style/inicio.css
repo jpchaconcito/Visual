@@ -1,0 +1,29 @@
+.inicio {
+    position: relative;
+    background-color: #bc5800;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inicio h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .inicio p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .inicio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
