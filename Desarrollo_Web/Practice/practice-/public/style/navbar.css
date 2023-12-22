@@ -1,0 +1,56 @@
+.Nav-header {
+    position: sticky;
+    top: 0;
+    background-color: #974400;
+    z-index: 1000;
+}
+  
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.navBar img {
+    margin-right: 10px;
+}
+  
+.navList {
+    list-style: none;
+    display: flex;
+}
+  
+.navList li {
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.navList li:hover {
+    color: #1c1c1c;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer;
+}
+  
+
+.navList a {
+    color: #fff; 
+}
+  
+  
+.navList a:hover {
+    color: #1c1c1c;
+}
+  
+
+.navList a.active {
+    font-weight: bold;
+}
+ 
+
+
